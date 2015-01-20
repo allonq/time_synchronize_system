@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:keepScreenOn="true"
+    android:orientation="vertical" >
+
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="71dp"
+	    android:keepScreenOn="true"
+	    android:orientation="horizontal" >
+
+	    <EditText
+	        android:id="@+id/EditTextReception"
+	        android:layout_width="137dp"
+	        android:layout_height="98dp"
+	        android:layout_weight="0.49"
+	        android:gravity="top"
+	        android:hint="Reception"
+	        android:isScrollContainer="true"
+	        android:scrollbarStyle="insideOverlay" >
+	    </EditText>
+
+	    <EditText
+	        android:id="@+id/EditTextReception2"
+	        android:layout_width="137dp"
+	        android:layout_height="86dp"
+	        android:layout_weight="0.46"
+	        android:gravity="top"
+	        android:hint="Reception"
+	        android:isScrollContainer="true"
+	        android:scrollbarStyle="insideOverlay" >
+
+	    </EditText>
+	</LinearLayout>
+
+	<TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log File Control" />
+
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:keepScreenOn="true"
+	    android:orientation="horizontal" >
+	
+    <Button
+        android:id="@+id/startfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ON" />
+   
+    <Button
+        android:id="@+id/stopfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OFF" />
+
+    
+
+ </LinearLayout>
+ <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Xively Control" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="61dp"
+        android:keepScreenOn="true"
+        android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/xively_on"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ON" />
+
+    <Button
+        android:id="@+id/xively_off"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OFF" />
+	 </LinearLayout>
+</LinearLayout>

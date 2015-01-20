@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <Button
+        android:id="@+id/buttonSend500"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="37dp"
+        android:text="Sending500" />
+
+    <Button
+        android:id="@+id/buttonStop"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/buttonSend500"
+        android:layout_marginTop="14dp"
+        android:text="Stop Sending" />
+
+    <Button
+        android:id="@+id/buttonSend1000"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/buttonSend500"
+        android:layout_toRightOf="@+id/buttonSend500"
+        android:text="Send 1000" />
+
+    <Button
+        android:id="@+id/buttonSend2000"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonSend1000"
+        android:layout_alignBottom="@+id/buttonSend1000"
+        android:layout_toRightOf="@+id/buttonSend1000"
+        android:text="Send 2000" />
+
+</RelativeLayout>
